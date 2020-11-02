@@ -198,7 +198,7 @@
             "get_system_as_root_mode;"\
             "echo system_mode: ${system_mode};"\
             "if test ${system_mode} = 1; then "\
-                    "setenv bootargs ${bootargs} ro rootwait skip_initramfs;"\
+                    "setenv bootargs ${bootargs} ro rootwait;"\
             "else "\
                     "setenv bootargs ${bootargs} ${fs_type};"\
             "fi;"\
